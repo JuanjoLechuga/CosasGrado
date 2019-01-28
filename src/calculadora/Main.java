@@ -26,7 +26,15 @@ public class Main {
 		Resta operacionResta = new Resta();
 		System.out.print("Resta= "+ operacionResta.restar(a,b));
 		}
-
+		if(opcion==3) {
+			Multiplicacion operacion = new Multiplicacion();
+			System.out.print("Multiplicación= "+ operacion.multiplicar(a,b));
+			}
+		if(opcion==4) {
+			Division operacion = new Division();
+			System.out.print("MDivision= "+ operacion.dividir(a,b));
+			}
+		
 	}
 
 }
