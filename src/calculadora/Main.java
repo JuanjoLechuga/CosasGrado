@@ -1,7 +1,7 @@
 package calculadora;
 
 import java.util.Scanner;
-
+//Programa hecho por Juanjo Chica, hecho para el ejerciciode práctica de Git
 public class Main {
 
 	
