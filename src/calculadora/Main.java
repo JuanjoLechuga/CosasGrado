@@ -14,6 +14,9 @@ public class Main {
 		System.out.print("Introduzca el segundo número a operar: ");
 		b =sc.nextInt();
 		
+		Suma sumar = new Suma();
+		System.out.print("Suma=" + sumar.suma(a,b) );
+		
 
 	}
 
