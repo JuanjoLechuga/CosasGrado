@@ -10,13 +10,13 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		MenuCalculadora menu = new MenuCalculadora();
-		opcion= menu.elegirOperacion();
-		
 		System.out.print("Introduzca el primer número a operar: ");
 		a = sc.nextInt();
 		System.out.print("Introduzca el segundo número a operar: ");
 		b =sc.nextInt();
+		
+		MenuCalculadora menu = new MenuCalculadora();
+		opcion= menu.elegirOperacion();
 		
 		if (opcion==1) {
 		Suma sumar = new Suma();
