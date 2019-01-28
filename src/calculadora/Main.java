@@ -15,7 +15,10 @@ public class Main {
 		b =sc.nextInt();
 		
 		Suma sumar = new Suma();
-		System.out.print("Suma=" + sumar.suma(a,b) );
+		System.out.println("Suma= " + sumar.suma(a,b) );
+		
+		Resta operacionResta = new Resta();
+		System.out.print("Resta= "+ operacionResta.restar(a,b));
 		
 
 	}
