@@ -9,9 +9,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Introduzca el primer número a operar: ");
+		System.out.print("Antonio Jose: ");
 		a = sc.nextInt();
-		System.out.print("Introduzca el segundo número a operar: ");
+		System.out.print("Felipe Romero: ");
 		b =sc.nextInt();
 		
 
