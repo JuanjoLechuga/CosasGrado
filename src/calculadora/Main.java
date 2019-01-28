@@ -2,6 +2,7 @@ package calculadora;
 
 import java.util.Scanner;
 //Programa hecho por Juanjo Chica, hecho para el ejerciciode práctica de Git
+//Me falta el Commit final, porque se me olvidó hacer uno intermedio para corregir los errores.
 public class Main {
 
 	
